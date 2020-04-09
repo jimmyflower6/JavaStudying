@@ -1,0 +1,14 @@
+字节流：
+InputStream 
+|-- FileInputStream (基本文件流） 
+|-- BufferedInputStream 
+|-- DataInputStream 
+|-- ObjectInputStream
+字符流
+Reader 
+|-- InputStreamReader (byte->char 桥梁） 
+|-- BufferedReader (常用） 
+Writer 
+|-- OutputStreamWriter (char->byte 桥梁） 
+|-- BufferedWriter 
+|-- PrintWriter （常用）
