@@ -10,4 +10,4 @@
     1. 强度削弱  
     2. 删除归纳变量  
     3. 代码外提  
-8. Java的进制转换为十进制，可以直接通过包装类的perseXXX方法实现。例如Integer.parseInt("a5d2", 16);返回的就是a5d2的16进制转为10进制的数
+8. Java的进制互换。16->10通过包装类parseXXX(str, 16)，10->16通过包装类toHexString(num)返回string
